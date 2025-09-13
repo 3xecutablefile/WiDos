@@ -1,0 +1,9 @@
+cracking:
+  priority:
+    - hashcat
+    - john
+    - aircrack-ng
+  wordlist: /usr/share/wordlists/rockyou.txt
+
+cleanup:
+  run_scripts: true
